@@ -11,6 +11,7 @@ I created this to practice and learn React. It shows 5-day forecast of Vancouver
 
 ## Possible Improvements
 - Accurate weather data; OpenWeather provides 5-day forecast in the span of 3 hours. I could perhaps aggregate the data to provide min/max temperature of the day.
+- Added an option for users to choose location.
 - Since I'm new to React, there could be some areas where I didn't follow the common code style or coding practices.
 
 ## Credits
