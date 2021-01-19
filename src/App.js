@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import WeatherGrid from './weatherGrid.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="row">
+        <div className="col-md-3 center">
+          <div className="title">5-Day Forecast.</div>
+          <div className="locationTime">Vancouver, Canada @ 12:00 PM</div>
+          <WeatherGrid />
+        </div>
+      </div>
     </div>
   );
 }
